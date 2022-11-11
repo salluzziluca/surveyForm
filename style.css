@@ -1,0 +1,105 @@
+html {
+  overflow-y: scroll;
+}
+
+.main {
+  background-color: #9fe723;
+}
+
+.box {
+  margin-top: 4em;
+  margin-bottom: 4em;
+  background-color: #bcfb56;
+  width: 33em;
+  min-width: 20em;
+  border-radius: 2em;
+}
+
+#title {
+  padding-top: 0.3em;
+  padding-left: 0.3em;
+  margin-bottom: 0em;
+  color: #ffffff;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 3.5em;
+}
+
+#description {
+  font-family: "Bebas Neue", cursive;
+  font-size: 2em;
+  padding-left: 0.8em;
+}
+
+#name-label,
+#email-label,
+#number-label,
+#gender-label,
+#age-label,
+#schedule-label,
+#comment-label {
+  font-family: "Questrial", sans-serif;
+  font-size: 1.4em;
+  padding-left: 1.8em;
+  padding-top: 0.5em;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+  margin: 0.1em 2em 0.1em 2em;
+  max-width: 28em;
+  border: 3px solid #609e19;
+  border-radius: 15px;
+}
+
+#dropdown {
+  margin-left: 2em;
+  max-width: 11em;
+  padding: 0.3em;
+  border: 3px solid #609e19;
+  border-radius: 15px;
+  font-family: "Questrial", sans-serif;
+  
+}
+
+.years {
+  margin: 0em 2em 0em 2em;
+  font-size: 1em;
+  font-family: "Questrial", sans-serif;
+}
+.form-control {
+ background-color: #bcfb56;
+ border: #bcfb56;
+  padding-top: 0em;
+  margin-top: 0em;
+  font-size: 1.2em;
+ 
+}
+
+
+input[type="checkbox"] {
+  margin-left: 2em;
+  
+}
+
+#comment {
+  display: block;
+  max-width: 28em;
+  margin: 0.3em 2.5em 1em 2.5em;
+  border: 3px solid #609e19;
+  border-radius: 15px;
+  
+}
+
+#submit {
+  font-family: "Questrial", sans-serif;
+  font-size: 1.2em;
+  color: #ffffff;
+  background-color: #9fe723;
+  border: 3px solid #609e19;
+  border-radius: 15px;
+  padding-top: 0em;
+  margin-bottom: 1em;
+  margin-left: 2em;
+  
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - survey form</title>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Archivo+Black&amp;family=Bebas+Neue&amp;family=Questrial&amp;display=swap'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<body class="main">
+
+  <div class="box container">
+    <h1 id="title">GYM</h1>
+    <p id="description">SIGN UP</p>
+
+    <div id="main-content">
+      <form id="survey-form">
+        <div class="row">
+          <label for="name" id="name-label">Name</label>
+          <input id="name" type="text" required placeholder="Enter your name" />
+        </div>
+        <div class="row">
+          <label for="email" id="email-label">Email</label>
+          <input id="email" type="email" required placeholder="Enter your email" />
+        </div>
+        <div class="row">
+          <label for="number" id="number-label">Number</label>
+          <input id="number" type="number" min="1" max="9999999999" required placeholder="Enter your number" />
+        </div>
+        <div class="row">
+          <label for="dropdown" id="gender-label">Gender</label>
+        </div>
+        <div class="row">
+          <select id="dropdown">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="Other">Other</option>
+            <option value="prefer-not-to-say">Prefer not to say</option>
+          </select>
+        </div>
+
+        <fieldset>
+          <div class="row">
+            <legend id="age-label">Age range</legend>
+          </div>
+          <div class="row years">
+            <div class="col">
+              <input class="form-check-input" type="radio" name="age" checked id="teen" value="teen"><label for="teen" class="form-check-label">12-17</label>
+            </div>
+            <div class="col">
+              <input class="form-check-input" type="radio" name="age" checked id="adult" value="adult"><label for="adult" class="form-check-label">18-59</label>
+            </div>
+            <div class="col">
+              <input class="form-check-input" type="radio" name="age" checked id="elder" value="elder"><label for="elder" class="form-check-label">60+</label>
+            </div>
+          </div>
+        </fieldset>
+
+        <div class="checkboxes">
+          <div class="row">
+            <p id="schedule-label">Time of the day</p>
+          </div>
+          <div class="row form-control">
+            <div class="col">
+              <input type="checkbox" class="form-check-input" id="morning" name="morning" value="morning">
+              <label for="morning">Morning</label>
+            </div>
+            <div class="col">
+              <input type="checkbox" class="form-check-input" id="afternoon" name="afternoon" value="afternoon">
+              <label for="afternoon">Afternoon</label>
+            </div>
+            <div class="col">
+              <input type="checkbox" class="form-check-input" id="evening" name="evening" value="evening">
+              <label for="evening">Evening/Night</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="textbox">
+          <div class="row">
+          <label for="comment" id="comment-label">Something we need to know?</label>
+          </div>
+          <div class="row">
+          <textarea rows="2" cols="40" id="comment" placeholder="Enter your comment here..."></textarea>
+          </div>
+        </div>
+
+        <button type="submit" id="submit">SUBMIT</button>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
+</body>
+</html>
