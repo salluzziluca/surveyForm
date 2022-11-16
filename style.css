@@ -4,6 +4,8 @@ html {
 
 .main {
   background-color: #9fe723;
+  display: flex;
+  justify-content: space-around;
 }
 
 .box {
@@ -59,7 +61,7 @@ input[type="number"] {
   border: 3px solid #609e19;
   border-radius: 15px;
   font-family: "Questrial", sans-serif;
-  
+
 }
 
 .years {
@@ -67,19 +69,20 @@ input[type="number"] {
   font-size: 1em;
   font-family: "Questrial", sans-serif;
 }
+
 .form-control {
- background-color: #bcfb56;
- border: #bcfb56;
+  background-color: #bcfb56;
+  border: #bcfb56;
   padding-top: 0em;
   margin-top: 0em;
   font-size: 1.2em;
- 
+
 }
 
 
 input[type="checkbox"] {
   margin-left: 2em;
-  
+
 }
 
 #comment {
@@ -88,7 +91,7 @@ input[type="checkbox"] {
   margin: 0.3em 2.5em 1em 2.5em;
   border: 3px solid #609e19;
   border-radius: 15px;
-  
+
 }
 
 #submit {
@@ -101,5 +104,5 @@ input[type="checkbox"] {
   padding-top: 0em;
   margin-bottom: 1em;
   margin-left: 2em;
-  
+
 }
